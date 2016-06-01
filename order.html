@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Charleston Donuts is Charleston North Carolina's favorite locally owned donuts shop, proudly
+making all donuts HOT to order!">
+<title>Charleston Donuts</title>
+<!-- KING, KATHRYN GIT 414 FALL 2015 SESSION B-->
+
+<!--Normalize.css is a project by Nicolas Gallagher, co-created with Jonathan Neal.
+http://necolas.github.io/normalize.css/ -->
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<!--MAIN STYLES -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!--GRID LAYOUT USING MEDIUM -->
+
+<!--GOOGLE FONTS -->
+<link href='https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco' rel='stylesheet' type='text/css'>
+
+<!--ION ICONS-->
+<link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <nav class="header-nav">
+    	<a href="index.html"><img class="logo" src="img/logo.png" alt="Charleston Donuts"></a>
+    <ul>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="order.html">Order</a></li>
+      <li><a href="location.html">Location</a></li>
+      
+    </ul>
+  </nav>
+    </header>
+   <!-- <section id="order-form">
+        <h1>Order Online!</h1>
+        <p>Fill out the form below to pre-order hot donuts for your arrival.
+    We will make telephone contact before processing your payment and order to
+     ensure we can accomodate you. This option is great for those morning
+      meetings when you want to have 3 or 4 dozen assorted donuts with a
+      coffee carafe ready for pick up early in the morning. </p>
+<form action="index.html" method="post">
+      <fieldset>
+                <legend><span class="number">1</span>Your contact info</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name">
+<br>
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="user_email">
+<br>
+                <label class="description" for="element_2">Phone </label>
+            		<span>
+            			<input id="element_2_1" name="element_2_1" class="element text" size="3" maxlength="3" value="" type="text"> -
+            			<label for="element_2_1">(###)</label>
+            		</span>
+            		<span>
+            			<input id="element_2_2" name="element_2_2" class="element text" size="3" maxlength="3" value="" type="text"> -
+            			<label for="element_2_2">###</label>
+            		</span>
+            		<span>
+            	 		<input id="element_2_3" name="element_2_3" class="element text" size="4" maxlength="4" value="" type="text">
+            			<label for="element_2_3">####</label>
+            		</span>
+<br>
+<label class="description" for="element_12">Date for Pick Up. (Closed Tuesdays) </label>
+<span>
+  <input id="element_12_1" name="element_12_1" class="element text" size="2" maxlength="2" value="" type="text"> /
+  <label for="element_12_1">MM</label>
+</span>
+<span>
+  <input id="element_12_2" name="element_12_2" class="element text" size="2" maxlength="2" value="" type="text"> /
+  <label for="element_12_2">DD</label>
+</span>
+<span>
+  <input id="element_12_3" name="element_12_3" class="element text" size="4" maxlength="4" value="" type="text">
+  <label for="element_12_3">YYYY</label>
+</span>
+
+<span id="calendar_12">
+  <img id="cal_img_12" class="datepicker" src="img/calendar.gif" alt="Pick a date.">
+</span>
+<label class="description" for="element_5">Desired Pick-up-Time (Latest 2:30p.m.)
+Earliest(5:30a.m.) </label>
+<span>
+  <input id="element_5_1" name="element_5_1" class="element text " size="2" type="text" maxlength="2" value=""/> :
+  <label>HH</label>
+</span>
+<span>
+  <input id="element_5_2" name="element_5_2" class="element text " size="2" type="text" maxlength="2" value=""/> :
+  <label>MM</label>
+</span>
+<span>
+  <input id="element_5_3" name="element_5_3" class="element text " size="2" type="text" maxlength="2" value=""/>
+  <label>SS</label>
+</span>
+<span>
+  <select class="element select" style="width:4em" id="element_5_4" name="element_5_4">
+    <option value="AM" >AM</option>
+    <option value="PM" >PM</option>
+  </select>
+  <label>AM/PM</label>
+    </fieldset>
+
+    <fieldset>
+      <p>Custom Donuts</p>
+      <label for="number">Quantity </label>
+      <input type="number" name="quantity" min="1" max="12">
+              <label for="cake">Cake</label>
+              <select id="filling" name="donut_filling">
+          <option value="" selected="selected"></option>
+          <option value="1" >Vanilla Cake</option>
+          <option value="2" >Chocolate</option>
+          <option value="3" >Strawberry</option>
+          <option value="4" >Blueberry</option>
+          <option value="5" >Yeast (Fluffy Glazed)</option>
+          <option value="6" >Cronut</option>
+          <option value="7" >Red Velvet</option>
+          <option value="8" >Banana Bread</option>
+
+              </select>
+              <label for="filling">Filling</label>
+              <select id="icing" name="donut_icing">
+                <option value="" selected="selected"></option>
+          <option value="1" >None</option>
+          <option value="2" >Vanilla Pudding</option>
+          <option value="3" >Chocolate Pudding</option>
+          <option value="4" >Strawberry Jame</option>
+          <option value="5" >Rassberry Jam</option>
+          <option value="6" >Blueberry Pie</option>
+          <option value="7" >Apple Pie</option>
+          <option value="8" >Cinnamon Butter</option>
+          <option value="9" >Butter Creme</option>
+          <option value="10" >Whipped Cream</option>
+          <option value="11" >Nutella</option>
+          <option value="12" >Cookie Butter</option>
+
+              </select>
+              <label for="icing">Icing</label>
+              <select id="filling" name="donut_filling">
+                <option value="" selected="selected"></option>
+          <option value="1" >None</option>
+          <option value="2" >Glaze</option>
+          <option value="3" >Maple</option>
+          <option value="4" >Chocolate</option>
+          <option value="5" >Vanilla</option>
+          <option value="6" >Butter Creme</option>
+          <option value="7" >Strawberry</option>
+          <option value="8" >Orange</option>
+          <option value="9" >Lemon</option>
+          <option value="10" >Honey</option>
+          <option value="11" >Nutella</option>
+          <option value="12" >Cream Cheese</option>
+          <option value="13" >Coconut</option>
+              </select>
+              <label for="icing">Icing</label>
+              <select id="filling" name="donut_filling">
+                <option value="" selected="selected"></option>
+          <option value="1" >Peanuts</option>
+          <option value="2" >Pistachio</option>
+          <option value="3" >Almonds</option>
+          <option value="4" >Cashews</option>
+          <option value="5" >Sunflower Seeds</option>
+          <option value="6" >Mixed Nuts</option>
+          <option value="7" >Strawberries</option>
+          <option value="8" >Cherries</option>
+          <option value="9" >Banana</option>
+          <option value="10" >Walnuts</option>
+          <option value="11" >Sprinkles</option>
+          <option value="12" >Marshmallows</option>
+          <option value="13" >Potato Chips</option>
+          <option value="14" >Pretzles</option>
+          <option value="15" >Fruity Pebbles</option>
+          <option value="16" >Coco Pebbles</option>
+          <option value="17" >Choco Chips</option>
+          <option value="18" >Mint Chips</option>
+          <option value="19" >Graham Crackers</option>
+          <option value="20" >Oreo cookies</option>
+          <option value="21" >Cake Crumbs</option>
+                  <button type="submit">+ Add Another Donut</button>
+            </fieldset>
+            <fieldset>
+              <p>Beverages</p>
+              <label for="number">Quantity </label>
+              <input type="number" name="quantity" min="1" max="12">
+                      <label for="cake">Size</label>
+                      <select id="filling" name="donut_filling">
+                  <option value="" selected="selected"></option>
+                  <option value="1" >Small</option>
+                  <option value="2" >Medium</option>
+                  <option value="3" >Large</option>
+
+                      </select>
+                      <label for="filling">Hot/Ices</label>
+                      <select id="icing" name="donut_icing">
+                        <option value="" selected="selected"></option>
+                  <option value="1" >Hot</option>
+                  <option value="2" >Iced</option>
+                  <option value="3" >Freezee</option>
+
+                      </select>
+                      <label for="icing">Type</label>
+                      <select id="filling" name="donut_filling">
+                        <option value="" selected="selected"></option>
+                  <option value="1" >None</option>
+                  <option value="2" >Glaze</option>
+                  <option value="3" >Maple</option>
+                  <option value="4" >Chocolate</option>
+                  <option value="5" >Vanilla</option>
+                  <option value="6" >Butter Creme</option>
+                  <option value="7" >Strawberry</option>
+                  <option value="8" >Orange</option>
+                  <option value="9" >Lemon</option>
+                  <option value="10" >Honey</option>
+                  <option value="11" >Nutella</option>
+                  <option value="12" >Cream Cheese</option>
+                  <option value="13" >Coconut</option>
+                      </select>
+                      <label for="icing">Icing</label>
+                      <select id="filling" name="donut_filling">
+                        <option value="" selected="selected"></option>
+                  <option value="1" >Peanuts</option>
+                  <option value="2" >Pistachio</option>
+                  <option value="3" >Almonds</option>
+                  <option value="4" >Cashews</option>
+                  <option value="5" >Sunflower Seeds</option>
+                  <option value="6" >Mixed Nuts</option>
+                  <option value="7" >Strawberries</option>
+                  <option value="8" >Cherries</option>
+                  <option value="9" >Banana</option>
+                  <option value="10" >Walnuts</option>
+                  <option value="11" >Sprinkles</option>
+                  <option value="12" >Marshmallows</option>
+                  <option value="13" >Potato Chips</option>
+                  <option value="14" >Pretzles</option>
+                  <option value="15" >Fruity Pebbles</option>
+                  <option value="16" >Coco Pebbles</option>
+                  <option value="17" >Choco Chips</option>
+                  <option value="18" >Mint Chips</option>
+                  <option value="19" >Graham Crackers</option>
+                  <option value="20" >Oreo cookies</option>
+                  <option value="21" >Cake Crumbs</option>
+                    </fieldset>
+              <button type="submit">Sign Up</button>
+          
+</form>-->
+    <section id="order-form">
+    <h2>Hang tight! This page is still under construction!</h2> 
+        </section>
+<footer>
+  <nav>
+  <ul>
+    <li><a href="http://www.facebook.com"><i class="ion-social-facebook"></i></a></li>
+    <li><a href="http://www.twitter.com"><i class="ion-social-twitter"></i></a></li>
+    <li><a href="http://www.instagram.com"><i class="ion-social-instagram"></i></a></li>
+    <li><a href="http://www.foursquare.com"><i class="ion-social-foursquare"></i></li>
+  </ul>
+</nav>
+<div>
+<p>&copy; 2015 Charleston Donuts</p>
+</div>
+<nav>
+  <ul>
+    <li><a href="careers.html"> Careers </a></li>
+    <li><a href="press.html">Press </a></li>
+  <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+</footer>
+
+
+
+
+
+</body>
+
+</html>

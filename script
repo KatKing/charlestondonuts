@@ -1,0 +1,10 @@
+<script type="text/javascript">
+  Calendar.setup({
+  inputField	 : "element_12_3",
+  baseField    : "element_12",
+  displayArea  : "calendar_12",
+  button		 : "cal_img_12",
+  ifFormat	 : "%B %e, %Y",
+  onSelect	 : selectDate
+  });
+</script>

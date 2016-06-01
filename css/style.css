@@ -1,0 +1,529 @@
+/* King, Kathryn Git 414 Fall 2015 Session B */
+/* Charleston Donuts Style Sheet */
+/*COLOR PALLETTE
+
+*/
+
+/* ===============================GLOBAL STYLES================*/
+
+* {
+
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+margin-left: auto;
+margin-right: auto;
+}
+
+html {
+  background-color: #fff;
+  color: #555;
+  font-family: 'muli', 'Arial', sans-serif;
+
+}
+
+h1, h2, h4, h4, h5{
+  font-family: 'Sue Ellen Francisco', cursive;
+  text-align: center;
+}
+
+h1 {
+    color: #000;
+}
+p {font-family: "Muli", "Arial", sans-serif;}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+li {list-style: none;}
+h2 {
+  text-align: center;
+}
+
+h2:after {
+  display: block;
+  height: 3px;
+  background-color: pink;
+  content: " ";
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.about-copy {
+  text-align: justify;
+}
+
+#about {
+  background-color: #f7f2f2;
+}
+
+footer li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 3%;
+}
+footer {
+  text-align: center;
+  background-color: #ccc9c7;
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+.header-nav {
+  margin-bottom: 2em;
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.hero {
+  padding-top: 30%;
+}
+
+.hot {
+    text-transform: uppercase;
+    color: deeppink;
+    font-size: 1.6em;
+}
+
+.header-nav li {
+  display: inline-block;
+  list-style: none;
+  font-family: 'Sue Ellen Francisco', cursive;
+ 
+}
+
+.header-nav ul {
+  float: right;
+  border-top: 2px solid pink;
+  border-bottom: 2px solid pink;
+}
+
+.header-nav {
+  margin-bottom: 2em;
+  position: fixed;
+  background-color: #fff;
+}
+.active a {color: deeppink; background-color: lightpink; margin-bottom: 3%;}
+/*========global footer style===*/
+.ion-social-twitter {color: deepskyblue;}
+    .ion-social-instagram {color: saddlebrown;}
+    .ion-social-facebook {color: darkblue;}
+    .ion-social-foursquare {color: orangered;}
+
+
+/*===========menu prices ======*/
+.prices {text-align: center; font-size: 120%;}
+.prices li {list-style: none; display: inline-block; padding: 3%;}
+
+.address {text-align: center; font-size: 200%;}
+iframe{border: 4px solid pink;  width: 90%; height: auto;}
+.hours-section {margin-top: 10%; width: 90%; margin-left: 5%;}
+.hours-section p{font-size: 200%; text-align: center; padding-bottom: 5%;}
+#submit_button {width: 100px; border: 3px solid hotpink; color: #fff; background-color:                 pink; margin-left: 45%; height: 30px; margin-top: 2%; padding-top: 1%; padding-bottom: 3%;}
+#submit_botton a:hover {background-color: hotpink;}
+
+
+ li {font-size: 1.4em;}
+    #contact input, #contact textarea {width: 80%; margin-left: 10%; border: 3px solid hotpink;}
+    #contact p {text-align: center;}
+    #contact label {margin-left: 10%; padding: 2%;}
+
+.hours-section {width: 80%; margin-left: 10%;}
+
+/*=========================================MOBILE STYLES ==========*/
+
+@media (min-width: 300px) and (max-width: 767px){
+header {
+  
+}
+
+    
+
+/*-------------------MOBILE HEADER---------*/
+.header-nav li {
+  display: inline-block;
+  list-style: none;
+  font-family: 'Sue Ellen Francisco', cursive;
+  padding-right: 15px;
+  font-size: 1.8em;
+}
+
+.header-nav ul {
+  float: right;
+  border-top: 2px solid pink;
+  border-bottom: 2px solid pink;
+  margin-top: 3%;
+  margin-right: 3%;
+}
+
+.header-nav {
+  margin-bottom: 2em;
+  position: fixed;
+  background-color: #fff;
+}
+
+.donut-lg {
+  display: none;
+}
+.logo {
+  width: 30%;
+  height: auto;
+  float: left;
+}
+
+.donuts-main-mobile {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.2em;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  line-height: 1.5em;
+}
+    
+/*---------------ABOUT SECTION MOBILE-----*/
+#about img {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+}
+
+#about {
+  margin-bottom: 20%;
+}
+
+    #about p {
+        margin: 0 5% 5% 5%;
+    }
+/*---------------DONUT SHOWCASE MOBILE------*/
+#donut-showcase img {
+    width: 100%;
+  height: auto;
+  margin-left: 24%;
+}
+    
+/*-------------FOOTER-----------*/
+footer i {
+  font-size: 300%;
+  padding: 5%;
+}
+
+ul {
+  text-align: center;
+}
+
+    h2 {
+        font-size: 2em;
+    }
+    
+h3 {
+  text-align: center;
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 2em;
+  color: brown;
+    margin: 0;
+}
+
+.donut_menu h1 {
+  font-size: 400%;
+  color: pink;
+}
+
+    .ion-social-twitter {color: deepskyblue;}
+    .ion-social-instagram {color: saddlebrown;}
+    .ion-social-facebook {color: darkblue;}
+    .ion-social-foursquare {color: orangered;}
+
+/*----------------------MENU PAGE MOBILE---------*/
+#donut-showcase img {
+  max-width: 140px;
+  height: auto;
+}
+
+.menu-donut {
+  width: 70%;
+  height: auto;
+}
+.menu-donut-section {
+  padding-top: 20%;
+}
+
+.coffee-box {
+  border: 2px solid brown;
+}
+.coffee-box p {
+  text-align: center;
+}
+.coffee-hands {
+  margin-left: auto;
+  margin-right: auto;
+}
+    .toppings {
+        padding-top: 16%;
+    }
+    .icings, .fillings {
+        padding-top: 10%;
+        border-top: 1px solid hotpink;
+        margin-top: 10%;
+    }
+    .coffee_menu {
+       padding-top: 10%;
+    }
+    
+   
+    .coffee-box {
+        padding: 0;
+        margin: 0;
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .coffee_menu h2 {
+        padding-top: 10%;
+    }
+    .coffee-box h2 {
+        margin: 0;
+        padding-top: 0;
+    }
+    
+    .coffee_menu {
+        padding-bottom: 10%;
+    }
+/*-------------------------LOCATION MOBILE----------*/
+    .donut_menu h1 {
+        color: deeppink;
+        font-size: 3em;
+    }
+    .donut_menu {
+        padding-top: 20%;
+        
+        
+    }
+    .donut_menu h2 {
+        padding: 0;
+        margin: 0;
+        font-size: 3em;
+    }
+    
+    .donut_menu p {
+        font-size: 2em;
+    }
+    .coffee-hands {
+        display: none;
+    }
+    
+    #map {
+        padding-top: 20%;
+    }
+    .hours {
+        padding: 0;
+        font-size: 3em;
+    }
+    #map p {
+        font-size: 1.4em;
+    }
+    .hours-section {
+        padding-top: 15%;
+        padding-bottom: 0;
+    }
+    
+    iframe {
+        padding-top: 10%;
+        
+    }
+    #contact {
+        padding-top: 0;
+        margin-top: 0;
+    }
+/*=====================ORDER FORM PAGE========*/
+    #order-form {
+        padding-top: 30%;
+        
+    }
+    #order-form p {text-align: justify;
+    margin: 5%;}
+    
+    #order-form form {
+        text-align: center;
+    }
+    
+    
+    
+/*==================LOCATION =================*/
+    .address {
+        text-align: center;
+        line-height: 1.8em;
+        font-size: 1.5em;
+    }
+    #map iframe {
+        width: 100%;
+        margin-bottom: 10%;   
+    }
+    #map h2 {
+        padding: 0;
+        margin: 0;
+    }
+    #map p {
+        text-align: center;
+    }
+    #contact p {
+        text-align: center;
+    }
+    #contact form {
+        text-align: center;
+        background-color: hotpink;
+        color: white;
+    }
+    #contact form input {
+        color: black;
+    }
+    h2 {
+        padding-top: 30%;
+    }
+}
+/*==================================TABLET STYLES========*/
+@media (min-width: 768px) and (max-width: 1024px){
+    .logo {height: 140px; margin-left: 20px;}
+    nav li {padding-right: 20px; font-size: 3em;
+            margin-top: 3%; }
+    nav ul {margin: 10px 40px 0 0;}
+    .donut-md {display: none;}
+    .hero {max-width: 90%; margin-left: 5%; padding-bottom: 10%;}
+    .hero h1 {font-size: 3em;}
+    h2 {font-size: 3em; padding-bottom: 0; margin-bottom: 0; padding-top: 30px;}
+    h2:after {margin-top: 2%; margin-bottom: 5%; width: 160px;}
+    #about p {padding: 2%; font-size: 1.2em;}
+    #about img {max-width: 90%; padding-top: 20%;}
+    #about { padding-bottom: 10%;}
+    #donut-showcase img {width: 140px;}
+    #donut-showcase {padding-bottom: 10%;}
+    footer{text-align: center;}
+    .bottom-tabs li {font-size: 1em; padding: 5%;}
+    /*======Menu Page Tablet===*/
+    .donut_menu {padding-top: 20%;}
+    .menu-donut { margin-top: 50px;}
+    .bottom-nav {font-size: 14px;}
+   
+    
+}
+
+@media (min-width: 768px) and (max-width: 1920px){
+    /*=====Globla Styles that exclude Mobile---*/
+    /*==============================GRID =======================*/
+.col-2 {
+  width: 50%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  min-height: 10px;
+}
+.row:before,
+.row:after {
+        content:"";
+        display: table ;
+         clear:both;
+        padding: 1%;
+    }
+[class*='col-'] {
+            float: left;
+            min-height: 1px;
+        }
+
+[class*='col-'] {
+                float: left;
+                min-height: 1px;
+                width: 16.66%;
+            }
+            col-1{
+                    width: 16.66%;
+                }
+                .col-2{
+                    width: 33.33%;
+                }
+                .col-3{
+                    width: 50%;
+                }
+                .col-4{
+                    width: 66.664%;
+                }
+                .col-5{
+                    width: 83.33%;
+                }
+                .col-6{
+                    width: 100%;
+                }
+    /*==============Home page ==========*/
+    #hero h1 {font-size: 4em; text-align: center; margin-right: 12%;, padding: 0;}
+
+/*=======menu page=====*/
+    .donut_menu h2 {padding-top: 100px; font-size: 4em;}
+    .toppings, .icings, .fillings {text-align: center; margin-top: 10%;}
+    .toppings li, .icings li, .fillings li {list-style: none; font-size: 105%;}
+    .menu-donut {align-items: center;}
+    .menu {text-align: center; font-size: 2em;}
+    h1 {font-size: 3em;}
+    .coffee-box {border: 3px solid brown; padding: 3% 0;}
+    .coffee-box h2 {color: brown; font-size: 2em;}
+    .coffee_menu li, h3 {text-align: center;}
+    .hand-font {font-family: 'Sue Ellen Francisco', cursive; font-size: 2.4em; }
+    .coffee-hands {margin-left: 20%;}
+    .donut-pictures img {margin-left: 25%; width: 200px; padding-top: 5%;}
+    .donut-pictures col { display: inline-block;}
+    section {
+        padding-bottom: 10%;
+    }
+    footer {padding-top: 0;    }
+    #order-form { padding-top: 40%; padding-bottom: 40%;}
+    #map {padding-top: 20%;    }
+    .toppings h3, .icings h3, .fillings h3 {font-family: "Sue Ellen Francisco"; font-size: 3em; color: brown;}
+    .toppings li, .icings li, .fillings li {font-size: 2em;}
+    .prices {font-size: 1.4em; font-family: sans-serif;}
+/*================footer===*/
+    .social {font-size: 3em; padding-top: 3%;}
+    
+    h2 {font-size: 3em;}
+    p {font-size: 1.4em; padding: 2%;}
+    #donut-showcase {margin-left: auto; margin-right: auto;}
+    #donut-showcase img {width: 80%;}
+    .wrapper {max-width: 1200; margin-left: auto; margin-right: auto;}
+    .hero {margin-left: 10%; padding-bottom: 10%; padding-top: 10%;}
+    .logo {height: 100px; margin-left: 10%;}
+    .header-nav li {font-size: 3em; padding-right: 20px;}
+    .header-nav ul {margin-right: 10%;}
+    h2:after {display: none;}
+    h3 {font-size: 2em; color: brown;}
+    form {width: 80%;}
+    iframe: {height: 200px;}
+    .cool-donuts {background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../img/donutbox2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;}
+    .cool-donuts2 {background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../img/donutbox1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;}
+    
+}
+
